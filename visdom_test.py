@@ -5,6 +5,8 @@ import requests
 import os
 import numpy as np
 
+# 安装visdom: pip install visdom
+
 viz = Visdom(server='http://127.0.0.1', port=8097)
 assert viz.check_connection()
 
